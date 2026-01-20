@@ -1,6 +1,6 @@
 --// Libraries
-local IDEModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Dear-ReGui/refs/heads/main/lib/ide.lua"))()
-local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/depthso/Dear-ReGui/refs/heads/main/ReGui.lua'))()
+local IDEModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/hazaardw/Dear-ReGui/refs/heads/main/lib/ide.lua"))()
+local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/hazaardw/Dear-ReGui/refs/heads/main/ReGui.lua'))()
 
 --// IDE
 local IDE = IDEModule.CodeFrame.new({
@@ -30,4 +30,5 @@ ReGui:ApplyFlags({
 		Fill = true,
 		BackgroundTransparency = 1
 	}
+
 })
