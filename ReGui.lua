@@ -16,7 +16,7 @@ local ReGui = {
 	Version = "1.4.2",
 	Author = "Depso",
 	License = "MIT",
-	Repository = "https://github.com/depthso/Dear-ReGui/",
+	Repository = "https://github.com/hazaardw/Dear-ReGui",
 
 	--// Configuration
 	Debug = false,
@@ -7727,3 +7727,4 @@ ReGui:DefineElement("PopupModal", {
 })
 
 return ReGui
+
